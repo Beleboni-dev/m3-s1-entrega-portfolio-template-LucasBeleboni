@@ -29,7 +29,7 @@ align-items: center;
 gap: 2.125rem;
 height: 5.375rem;
 width: 100%;
-min-width: 260px;
+min-width: 100%;
 padding: 0 1.8125rem;
 border: 1px solid #ffffff50;
 box-sizing: border-box;
@@ -53,4 +53,16 @@ line-height: 27px;
         width: 17.9375rem;
         min-width: max-content;
         }
+}
+
+@media(max-width:334px){
+    .techSection h2{
+        font-size: 2rem;
+    }
+    .techItem span{
+        font-size: 1rem;
+    }
+    .techItem{
+        gap: .5rem;
+    }
 }

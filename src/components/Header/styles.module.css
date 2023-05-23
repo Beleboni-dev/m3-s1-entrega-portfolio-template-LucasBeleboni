@@ -38,3 +38,12 @@
         gap: 3.75rem;
     }
 }
+
+@media(max-width:334px){
+    .header{
+        font-size: .75rem;
+        padding: 0 1rem;
+        margin: 1rem 0;
+    }
+
+}
