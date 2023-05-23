@@ -9,7 +9,7 @@ export const BannerSection = () => {
   return (
     <section className={styles.bannerSection}>
       <PortfolioOwner username={username} interestingPhrase={'Comprometido em alcançar resultados excepcionais.'} >
-        <h1 className={styles.welcomeTitle}>Bem vindo ao meu Portfolio</h1>
+        <h1 className={styles.welcomeTitle}>Bem-vindo ao meu Portfolio</h1>
       </PortfolioOwner>
       <img className={styles.bannerImage} src={bannerImg} alt="banner-image"/>
     </section>
