@@ -50,4 +50,7 @@ footer {
     .footerContent span {
         display: inline;
     }
+    .footerContent p {
+        margin: 0;
+    }
 }
