@@ -1,21 +1,41 @@
-import React from 'react'
-import { projects } from '../../../data/projects'
+import React, { useState, useEffect } from 'react'
+import axios from 'axios'
 import styles from './styles.module.css'
 import gitIcon from '../../../assets/git-icon.png'
+import { username } from '../../../data/user'
+
 export const ProjectSection = () => {
+  const [repositories, setRepositories] = useState([])
+
+  useEffect(() => {
+    const fetchRepositories = async () => {
+      try {
+        const response = await axios.get(`https://api.github.com/users/${username}/repos`)
+        console.log(response.data)
+        setRepositories(response.data)
+      } catch (error) {
+        console.error(error)
+      }
+    }
+
+    fetchRepositories()
+  }, [])
+
   return (
     <section className={styles.projectSection}>
       <h2>Projetos</h2>
       <ul className={styles.projectList}>
-        {projects.map((project, index) => (
+        {repositories.map((repository, index) => (
           <li key={index} className={styles.projectItem}>
             <div className={styles.itemHeader}>
-              <span>{project.name}</span>
-              <img src={gitIcon} alt={project.name}/>
+              <span>{repository.name}</span>
+              <img src={gitIcon} alt={repository.name} />
             </div>
             <div className={styles.projectContent}>
-              <p>{project.description}</p>
-              <a href="#">Saiba mais</a>
+              <p>{repository.description}</p>
+              <a href={repository.html_url} target="_blank" rel="noopener noreferrer">
+                Saiba mais
+              </a>
             </div>
           </li>
         ))}

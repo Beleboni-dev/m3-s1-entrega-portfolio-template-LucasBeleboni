@@ -9,7 +9,7 @@ function App() {
         <BannerSection />
         <AboutMe />
         <TechSection />
-        <ProjectSection />
+        <ProjectSection/>
     </MainTemplate>
   )
 }
