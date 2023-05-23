@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+.mainContainer{
+    padding: 0 1.8125rem;
+    box-sizing: border-box;
+    background-color: #000;
+}
+
+@media(min-width:46rem){
+    .mainContainer{
+        max-width: 60rem;
+        margin: 0 auto;
+    }
+}

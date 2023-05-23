@@ -1,0 +1,41 @@
+.aboutMeSection {
+    box-sizing: border-box;
+    color: #ffffff;
+    margin-top: 6.8125rem;
+}
+
+.aboutMeSection h2 {
+    font-family: 'Inter', sans-serif;
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 44px;
+    margin: 0;
+}
+
+.aboutMeSection p {
+    margin-top: 1.5625rem;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+@media(min-width: 46rem){
+    .aboutMeSection{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .aboutMeSection h2 {
+    min-width: max-content;
+    }
+}
+
+@media(min-width: 45.375rem){
+    .aboutMeSection p {
+        margin-left: 4.375rem;
+    }
+}

@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+
+.bannerSection {
+    color: #ffffff;
+    margin-top: 1.75rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.welcomeTitle {
+    font-family: 'Inter', sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 51px;
+    margin-top: .5625rem;
+    margin-bottom: 2.3125rem;
+}
+
+.ownerUsername {
+    text-transform: uppercase;
+    color: #6880FF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+}
+
+.ownerPhrase cite {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.bannerImage{
+width: 100%;
+max-width: 19.3125rem;
+margin-top: 3.9375rem;
+box-sizing: border-box;
+}
+
+@media(min-width: 46rem){
+    .bannerSection{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .ownerContainer{
+        display: flex;
+        flex-direction: column;
+    }
+    .ownerContainer h1{
+        max-width: 20rem;
+    }
+    .ownerContainer span{
+        max-width: 20rem;
+    }
+
+}
+@media(min-width: 27.5rem){
+    .ownerContainer button{
+        display: block;
+    }
+}
