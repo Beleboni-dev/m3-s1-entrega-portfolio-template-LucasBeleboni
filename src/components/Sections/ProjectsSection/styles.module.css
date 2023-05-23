@@ -70,6 +70,12 @@
     text-decoration: none;
     color: rgba(104, 128, 255, 1);
 }
+.projectItem a:hover {
+    color: rgba(124, 145, 255, 1);
+    text-decoration: underline;
+    transition: 0.4s;
+    cursor: pointer;
+}
 
 @media(min-width: 46rem){
     .projectList{
