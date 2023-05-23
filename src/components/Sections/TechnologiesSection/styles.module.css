@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
 
 .techSection{
+    width: 100%;
 margin-top: 5.625rem;
 font-family: 'Inter', sans-serif;
 color: #ffffff;
@@ -28,7 +29,7 @@ align-items: center;
 gap: 2.125rem;
 height: 5.375rem;
 width: 100%;
-min-width: max-content;
+min-width: 260px;
 padding: 0 1.8125rem;
 border: 1px solid #ffffff50;
 box-sizing: border-box;

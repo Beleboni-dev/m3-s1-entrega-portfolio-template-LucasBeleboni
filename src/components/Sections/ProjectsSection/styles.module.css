@@ -25,18 +25,21 @@
 .projectItem {
     gap: 2.125rem;
     height: 11.4375rem;
+    min-height: max-content;
     width: 100%;
-    min-width: max-content;
+    min-width: 260px;;
     padding-left: 2.0625rem;
     border: 1px solid #ffffff50;
     box-sizing: border-box;
     border-radius: 1.5625rem;
+
 }
 
 .projectItem div:first-child {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .projectItem div:first-child img {
@@ -59,6 +62,7 @@
     font-weight: 400;
     line-height: 30px;
     margin-top: 1rem;
+    width: max-content;
 }
 
 .projectItem a {
