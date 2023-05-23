@@ -5,7 +5,7 @@ import githubLogo from '../../assets/github-icon.png'
 import styles from './styles.module.css'
 export const SocialMedias = () => {
     return (
-        <div>
+        <div className={styles.containerWrapper}>
         <h2 className={styles.socialTitle}>Contato</h2>
         <div className={styles.logoContainer}>
             <img className={styles.socialMediaLogo} src={whatsAppLogo}alt="whatsapp-logo" />
