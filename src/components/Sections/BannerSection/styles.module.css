@@ -58,7 +58,7 @@ box-sizing: border-box;
     }
 
 }
-@media(min-width: 27.5rem){
+@media(min-width: 348px){
     .ownerContainer button{
         display: block;
     }
