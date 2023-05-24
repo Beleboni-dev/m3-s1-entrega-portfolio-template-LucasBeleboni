@@ -11,7 +11,6 @@ export const ProjectSection = () => {
     const fetchRepositories = async () => {
       try {
         const response = await axios.get(`https://api.github.com/users/${username}/repos`)
-        console.log(response.data)
         setRepositories(response.data)
       } catch (error) {
         console.error(error)
