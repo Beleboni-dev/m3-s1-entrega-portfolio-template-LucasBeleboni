@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
-.buttonDefault{
+
+.buttonDefault {
     height: 2.4375rem;
     border-radius: .75rem;
     background-color: #6880FF;
@@ -12,17 +13,18 @@
 
 .buttonDefault:hover,
 .buttonDefault:focus,
-.buttonDefault:active{
+.buttonDefault:active {
     background-color: #7C91FF;
     transition: 0.4s;
     cursor: pointer;
 }
 
-.headerDefaultButton{
+.headerDefaultButton {
     width: 7.125rem;
     margin-top: 27px;
 }
-.bannerSectionButton{
+
+.bannerSectionButton {
     width: 8.125rem;
     margin-top: 2.3125rem;
 }

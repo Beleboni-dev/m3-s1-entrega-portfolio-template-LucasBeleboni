@@ -34,32 +34,37 @@
     font-weight: 400;
     line-height: 30px;
 }
-.bannerImage{
-width: 100%;
-max-width: 19.3125rem;
-margin-top: 3.9375rem;
-box-sizing: border-box;
+
+.bannerImage {
+    width: 100%;
+    max-width: 19.3125rem;
+    margin-top: 3.9375rem;
+    box-sizing: border-box;
 }
 
-@media(min-width: 46rem){
-    .bannerSection{
+@media(min-width: 46rem) {
+    .bannerSection {
         flex-direction: row;
         justify-content: space-between;
     }
-    .ownerContainer{
+
+    .ownerContainer {
         display: flex;
         flex-direction: column;
     }
-    .ownerContainer h1{
+
+    .ownerContainer h1 {
         max-width: 20rem;
     }
-    .ownerContainer span{
+
+    .ownerContainer span {
         max-width: 20rem;
     }
 
 }
-@media(min-width: 348px){
-    .ownerContainer button{
+
+@media(min-width: 348px) {
+    .ownerContainer button {
         display: block;
     }
 }

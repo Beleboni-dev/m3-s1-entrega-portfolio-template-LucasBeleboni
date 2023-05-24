@@ -1,8 +1,9 @@
-
+/* Components import */
 import { Header } from '../../Header/Header'
-
-import styles from './styles.module.css'
 import Footer from '../../Footer/Footer'
+
+/* Styles import */
+import styles from './styles.module.css'
 export const MainTemplate = ({ children }) => {
     return (
         <>
@@ -10,7 +11,7 @@ export const MainTemplate = ({ children }) => {
             <main className={styles.mainContainer}>
                 {children}
             </main>
-            <Footer/>
+            <Footer />
         </>
 
     )

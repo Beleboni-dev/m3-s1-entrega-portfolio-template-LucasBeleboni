@@ -47,9 +47,11 @@ footer {
         margin: 0;
         margin-bottom: 1.25rem;
     }
+
     .footerContent span {
         display: inline;
     }
+
     .footerContent p {
         margin: 0;
     }

@@ -21,18 +21,18 @@
 }
 
 
-@media(min-width: 46rem){
-    .aboutMeSection{
+@media(min-width: 46rem) {
+    .aboutMeSection {
         display: flex;
         justify-content: space-between;
     }
 
     .aboutMeSection h2 {
-    min-width: max-content;
+        min-width: max-content;
     }
 }
 
-@media(min-width: 45.375rem){
+@media(min-width: 45.375rem) {
     .aboutMeSection p {
         margin-left: 4.375rem;
         margin-top: 0;

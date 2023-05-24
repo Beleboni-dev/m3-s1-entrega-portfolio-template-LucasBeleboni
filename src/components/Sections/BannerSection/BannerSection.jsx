@@ -1,9 +1,12 @@
 import React from 'react'
+
+/* Components Imports */
 import { username } from '../../../data/user'
 import { PortfolioOwner } from './PortfolioOwner'
-import { ButtonDefault } from '../../Buttons/ButtonDefault'
-import styles from './styles.module.css';
-import bannerImg from "../../../assets/banner-img.png";
+import bannerImg from "../../../assets/banner-img.png"
+
+/* Styles Import */
+import styles from './styles.module.css'
 
 export const BannerSection = () => {
   return (
@@ -11,7 +14,7 @@ export const BannerSection = () => {
       <PortfolioOwner username={username} interestingPhrase={'Comprometido em alcançar resultados excepcionais.'} >
         <h1 className={styles.welcomeTitle}>Bem-vindo ao meu Portfolio</h1>
       </PortfolioOwner>
-      <img className={styles.bannerImage} src={bannerImg} alt="banner-image"/>
+      <img className={styles.bannerImage} src={bannerImg} alt="banner-image" />
     </section>
   )
 }

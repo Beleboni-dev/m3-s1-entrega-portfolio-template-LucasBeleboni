@@ -70,6 +70,7 @@
     text-decoration: none;
     color: rgba(104, 128, 255, 1);
 }
+
 .projectItem a:hover {
     color: rgba(124, 145, 255, 1);
     text-decoration: underline;
@@ -77,26 +78,29 @@
     cursor: pointer;
 }
 
-@media(min-width: 46rem){
-    .projectList{
+@media(min-width: 46rem) {
+    .projectList {
         flex-direction: row;
         flex-wrap: wrap;
-    
+
     }
-    .projectItem{
+
+    .projectItem {
         width: 26.875rem;
         min-width: max-content;
-        }
+    }
 }
 
 
-@media(max-width:334px){
-    .projectItem span{
+@media(max-width:334px) {
+    .projectItem span {
         font-size: .75rem;
     }
-    .projectItem{
+
+    .projectItem {
         gap: .5rem;
     }
+
     .projectItem p {
         font-size: .75rem;
     }

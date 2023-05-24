@@ -1,5 +1,8 @@
 import React from 'react'
+/* Styles Import */
 import styles from './styles.module.css';
+
+
 export const AboutMe = () => {
   return (
     <section className={styles.aboutMeSection}>

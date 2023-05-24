@@ -1,68 +1,71 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
 
-.techSection{
+.techSection {
     width: 100%;
-margin-top: 5.625rem;
-font-family: 'Inter', sans-serif;
-color: #ffffff;
-box-sizing: border-box;
+    margin-top: 5.625rem;
+    font-family: 'Inter', sans-serif;
+    color: #ffffff;
+    box-sizing: border-box;
 }
 
-.techSection h2{
+.techSection h2 {
     font-size: 36px;
     font-weight: 800;
     line-height: 44px;
 }
 
-.techList{
-list-style: none;
-margin: 0;
-padding: 0;
-display: flex;
-flex-direction: column;
-gap: 1.25rem;
+.techList {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
 }
 
-.techItem{
-display: flex;
-align-items: center;
-gap: 2.125rem;
-height: 5.375rem;
-width: 100%;
-min-width: 100%;
-padding: 0 1.8125rem;
-border: 1px solid #ffffff50;
-box-sizing: border-box;
-border-radius: 1.5625rem;
+.techItem {
+    display: flex;
+    align-items: center;
+    gap: 2.125rem;
+    height: 5.375rem;
+    width: 100%;
+    min-width: 100%;
+    padding: 0 1.8125rem;
+    border: 1px solid #ffffff50;
+    box-sizing: border-box;
+    border-radius: 1.5625rem;
 }
 
-.techItem span{
-text-transform: uppercase;
-font-size: 22px;
-font-weight: 800;
-line-height: 27px;
+.techItem span {
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 27px;
 }
 
-@media(min-width: 46rem){
-    .techList{
+@media(min-width: 46rem) {
+    .techList {
         flex-direction: row;
         flex-wrap: wrap;
-    
+
     }
-    .techItem{
+
+    .techItem {
         width: 17.9375rem;
         min-width: max-content;
-        }
+    }
 }
 
-@media(max-width:334px){
-    .techSection h2{
+@media(max-width:334px) {
+    .techSection h2 {
         font-size: 2rem;
     }
-    .techItem span{
+
+    .techItem span {
         font-size: 1rem;
     }
-    .techItem{
+
+    .techItem {
         gap: .5rem;
     }
 }

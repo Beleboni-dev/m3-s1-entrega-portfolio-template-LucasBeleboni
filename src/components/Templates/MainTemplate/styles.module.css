@@ -1,15 +1,16 @@
-body{
+body {
 
     background-color: #000;
 }
-.mainContainer{
+
+.mainContainer {
     padding: 0 1rem;
     box-sizing: border-box;
     background-color: #000;
 }
 
-@media(min-width:46rem){
-    .mainContainer{
+@media(min-width:46rem) {
+    .mainContainer {
         max-width: 60rem;
         margin: 0 auto;
     }
