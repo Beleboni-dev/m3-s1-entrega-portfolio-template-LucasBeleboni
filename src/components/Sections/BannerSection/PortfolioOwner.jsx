@@ -10,7 +10,7 @@ export const PortfolioOwner = ({ username, interestingPhrase, children }) => {
       <span className={styles.ownerUsername}>{username}</span>
       {children}
       <span className={styles.ownerPhrase}><cite>{interestingPhrase}</cite></span>
-      <ButtonDefault textContent={"Saiba Mais"} classType={"bannerSectionButton"} />
+      <ButtonDefault textContent={'Saiba Mais'} classType={'bannerSectionButton'} />
     </div>
   )
 }

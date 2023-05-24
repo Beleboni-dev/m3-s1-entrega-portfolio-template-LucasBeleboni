@@ -13,7 +13,7 @@ const ProjectItem = ({ repository, index }) => {
             </div>
             <div className={styles.projectContent}>
                 <p>{repository.description}</p>
-                <a href={repository.html_url} target="_blank" rel="noopener noreferrer">
+                <a href={repository.html_url} target='_blank' rel='noopener noreferrer'>
                     Saiba mais
                 </a>
             </div>

@@ -12,9 +12,9 @@ export const SocialMedias = () => {
         <div className={styles.containerWrapper}>
             <h2 className={styles.socialTitle}>Contato</h2>
             <div className={styles.logoContainer}>
-                <img className={styles.socialMediaLogo} src={whatsAppLogo} alt="whatsapp-logo" />
-                <img className={styles.socialMediaLogo} src={linkdinLogo} alt="linkedin-logo" />
-                <img className={styles.socialMediaLogo} src={githubLogo} alt="github-logo" />
+                <img className={styles.socialMediaLogo} src={whatsAppLogo} alt='whatsapp-logo' />
+                <img className={styles.socialMediaLogo} src={linkdinLogo} alt='linkedin-logo' />
+                <img className={styles.socialMediaLogo} src={githubLogo} alt='github-logo' />
             </div>
         </div>
     )
